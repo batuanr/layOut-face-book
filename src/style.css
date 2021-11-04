@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+aside {
+    right: 0;
+    width: 200px;
+    height: 450px;
+    background-color: chartreuse;
+    position: fixed;
+    bottom: 200px;
+}
+aside  p {
+    margin: 10px;
+    text-align: center;
+   padding: 30px;
+    background-color: #f67fff;
+}
+
+article {
+    background-color: bisque;
+    position: relative;
+    top: 120px;
+    width: 70%;
+}
+
+article div div{
+    background-color: #f67fff;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    height: 300px;
+    z-index: 2;
+}
+header {
+    text-align: center;
+    width: 100%;
+    background-color: darkred;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 3;
+
+}
